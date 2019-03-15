@@ -1,0 +1,118 @@
+@media screen and (max-width: 1199px) {
+	.section-1 .section-1_img {
+		img {
+			width: 100%;
+		}
+	}
+	.section-3 .composition-img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.section-5 .banner p {
+		font-size: 18px;
+	}
+	.section-5 .banner-img .img-block {
+		top: -98px;
+	}
+}
+@media screen and (max-width: 991px) {
+	h1 {
+		font-size: 41px;
+	}
+	.section-1 .section-1_text-block {
+		margin-top: 40px;
+	}
+	.section-1 .section-1_text-block ul li p, .section-1 .description p {
+		font-size: 16px;
+	}
+	.section-2 .item {
+		justify-content: flex-start;
+	}
+	.section-2 .item .item-text p {
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	.section-3 .title p {
+		font-size: 17px;
+	}
+	.section-3 p {
+		font-size: 16px;
+	}
+	.section-3 .composition-img {
+		margin-top: 30px;
+	}
+	.section-4 .text-block p:first-child, .section-4 .title_individual_text p {
+		font-size: 20px;
+	}
+	.section-4 .text-block p, .section-4 .individual-text p:first-child {
+		font-size: 16px;
+	}
+	.section-5 .description p {
+		font-size: 16px;
+	}
+	.section-5 .different-technology p {
+		font-size: 16px;
+	}
+	.section-5 .banner-img .img-block {
+		top: -36px;
+		img {
+			max-width: 300px;
+		}
+	}
+	.section-6 p {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 767px) {
+	h1 {
+		line-height: 47px;
+	}
+	.link-btn-block .link-btn {
+		font-size: 16px;
+	}
+	.link-btn-block {
+		margin-top: 40px;
+	}
+	.section-2 .item .first-img {
+		margin-bottom: 0px;
+	}
+	.section-2 .item .line-img {
+		margin-bottom: 0px;
+	}
+	.section-2 .item {
+		margin-top: 40px;
+	}
+	.section-5 .banner-img .img-block {
+		position: relative;
+		top: 0;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.section-5 .banner p {
+		text-align: center;
+		padding: 0 15px;
+	}
+	.section-5 .banner {
+		margin-top: 40px;
+	}
+	.section-6 .yellow-btn {
+		font-size: 16px;
+		padding: 16px 16px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.section-6 .btn-block {
+		display: block;
+		text-align: center;
+	}
+	h1 {
+		font-size: 34px;
+		line-height: 40px;
+	}
+	.section-1 .title p {
+		font-size: 17px;
+	}
+}

@@ -1,0 +1,115 @@
+.price {
+	padding: 55px 0 60px 0;
+	.description {
+		p {
+			font-family: $black-font;
+			font-size: 24px;
+			color: #333333;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+	.price-increase {
+		background: #ffffff;
+		border: 4px solid #ff4757;
+		border-bottom-right-radius: 15px;
+		margin-top: 20px;
+		padding: 5px 15px;
+		p {
+			font-family: $black-font;
+			color: #333333;
+			font-size: 18px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+	.price-block {
+		padding: 30px 0;
+		box-shadow: 0px 0px 19.68px 4.32px rgba(0, 0, 0, 0.1);
+		background: #ffffff;
+		margin-top: 30px;
+	}
+	.title {
+		position: relative;
+		height: 63px;
+		.title-text {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			p {
+				font-family: $black-font;
+				color: #ffffff;
+				text-align: center;
+				font-size: 18px;
+				text-transform: uppercase;
+				position: absolute;
+				z-index: 5;
+				margin-top: -6px;
+			}
+		}
+	}
+	.border {
+		position: absolute;
+		top: 0;
+		z-index: 3;
+		left: -21px;
+		height: 63px;
+		background: url("../img/blue-line.png") no-repeat;
+		background-size: contain;
+		width: 488px;
+	}
+	.price-list {
+		margin-bottom: 30px;
+		margin-top: 15px;
+		padding: 0 55px 0 30px;
+		ul {
+			list-style-type: none;
+			li {
+				background: url("../img/second-list.png") no-repeat 0 8px;
+				padding-left: 19px;
+				margin-bottom: 20px;
+				p {
+					font-family: $bold-font;
+					font-size: 18px;
+					color: #333333;
+				}
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.how-much {
+		margin-bottom: 30px;
+		p {
+			text-align: center;
+			color: #333333;
+			font-family: $bold-font;
+			font-size: 18px;
+			span {
+				font-size: 36px;
+			}
+		}
+	}
+	.btn-new-block {
+		padding: 0 27px;
+		.btn-new {
+			background: #ff4757;
+			color: #ffffff;
+			font-family: $bold-font;
+			font-size: 18px;
+			text-align: center;
+			border-radius: 15px;
+			transition: .3s ease;
+			display: block;
+			padding: 25px 10px;
+			text-transform: uppercase;
+			width: 100%;
+			&:hover {
+				background: #ef3646;
+			}
+		}
+	}
+}

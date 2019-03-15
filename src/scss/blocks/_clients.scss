@@ -1,0 +1,26 @@
+.clients {
+	background: #ffffff;
+	padding-top: 65px;
+	h2 {
+		color: #333333;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.clients-img-block {
+		display: flex;
+		align-items: center;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	.clients-img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 180px;
+		height: 65px;
+		margin-bottom: 60px;
+		img {
+			max-width: 130px;
+		}
+	}
+}

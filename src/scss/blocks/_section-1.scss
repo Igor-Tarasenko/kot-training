@@ -1,0 +1,77 @@
+.section-1 {
+	background: url("../img/bg1.jpg") no-repeat center;
+	background-size: cover;
+	padding: 65px 0 45px 0;
+	h1 {
+		span {
+			font-family: $black-font;
+		}
+	}
+	.header-item {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 35px;
+	}
+	.item {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin-right: 60px;
+		p {
+			font-size: 22px;
+			font-family: $bold-font;
+			color: #ffffff;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	.header-text {
+		margin-top: 30px;
+		p {
+			font-family: $reg-font;
+			font-size: 20px;
+			color: #ffffff;
+			text-align: left;
+			&:first-child {
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.header-btn {
+		margin-top: 40px;
+	}
+}
+.date {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	img {
+		margin-right: 18px;
+	}
+	p {
+		font-family: $reg-font;
+		color: #ffffff;
+		font-size: 28px;
+	}
+}
+.btn-block {
+	margin-top: 15px;
+	.btn {
+		display: block;
+		background: #ff4757;
+		color: #ffffff;
+		font-family: $bold-font;
+		font-size: 28px;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 16px 24px;
+		border-bottom-right-radius: 25px;
+		transition: .3s ease;
+		cursor: pointer;
+		&:hover {
+			background: #ef3646;
+		}
+	}
+}
+

@@ -1,0 +1,34 @@
+.guests {
+	background: #ffffff;
+	padding: 45px 0 30px 0;
+	h2 {
+		color: #333333;
+		text-align: center;
+	}
+	.guests-block {
+		margin-top: 30px;
+		.img-block {
+			width: 160px;
+			height: 160px;
+			background: #2579bf;
+			border-radius: 50%;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		.guests-block_text {
+			margin-top: 25px;
+			p {
+				font-family: $reg-font;
+				color: #333333;
+				text-align: justify;
+				font-size: 18px;
+				&:first-child {
+					font-family: $bold-font;
+					font-size: 24px;
+					text-align: center;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

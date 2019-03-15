@@ -1,0 +1,51 @@
+.training-steps-block {
+	padding: 40px 0 50px 0;
+	.description {
+		p {
+			font-family: $reg-font;
+			font-size: 17px;
+			color: #333333;
+			text-align: center;
+		}
+	}
+	.title {
+		margin-top: 24px;
+		p {
+			font-family: $black-font;
+			font-size: 24px;
+			color: #333333;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+	.contain {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+		margin-top: 25px;
+		padding: 0 35px;
+		img {
+			margin-bottom: 16px;
+		}
+	}
+	.contain_title, .contain_description {
+		margin-bottom: 16px;
+		p {
+			font-family: $black-font;
+			font-size: 18px;
+			color: #333333;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+	.contain_description {
+		margin-bottom: 0;
+		p {
+			font-family: $reg-font;
+			font-weight: 400;
+			text-transform: none;
+			font-size: 15px;
+		}
+	}
+}

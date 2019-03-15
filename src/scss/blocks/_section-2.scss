@@ -1,0 +1,24 @@
+.section-2 {
+	padding: 65px 0 60px 0;
+	.algorithm-img {
+		margin-top: 30px;
+	}
+	.algorithm-text {
+		h3 {
+			span {
+				font-family: $black-font;
+			}
+		}
+	}
+	.description {
+		margin-top: 27px;
+		p {
+			font-size: 18px;
+			color: #292929;
+			font-family: $reg-font;
+			span {
+				font-family: $black-font;
+			}
+		}
+	}
+}
