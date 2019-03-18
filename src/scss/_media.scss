@@ -1,118 +1,351 @@
 @media screen and (max-width: 1199px) {
-	.section-1 .section-1_img {
+	header .header-menu ul li a {
+		font-size: 15px;
+	}
+	.section-2 .algorithm-img {
 		img {
 			width: 100%;
 		}
 	}
-	.section-3 .composition-img {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.section-5 .banner p {
-		font-size: 18px;
-	}
-	.section-5 .banner-img .img-block {
-		top: -98px;
+	.price .border {
+		top: 3px;
+		left: -16px;
+		height: 53px;
+		width: 402px;
 	}
 }
 @media screen and (max-width: 991px) {
-	h1 {
-		font-size: 41px;
+	.section-1 .header-text p {
+		font-size: 17px;
 	}
-	.section-1 .section-1_text-block {
-		margin-top: 40px;
+	.date p {
+		font-size: 23px;
 	}
-	.section-1 .section-1_text-block ul li p, .section-1 .description p {
+	.btn-block .btn {
+		font-size: 23px;
+	}
+	.section-2 .description p {
 		font-size: 16px;
 	}
-	.section-2 .item {
-		justify-content: flex-start;
-	}
-	.section-2 .item .item-text p {
+	.section-3 p {
 		font-size: 15px;
 	}
 	h2 {
-		font-size: 22px;
+		font-size: 36px;
+		line-height: 40px;
 	}
-	.section-3 .title p {
-		font-size: 17px;
+	.section-4 .feature_title_text p:first-child {
+		font-size: 24px;
+		line-height: 24px;
 	}
-	.section-3 p {
+	.section-4 .feature_title_text p {
+		font-size: 20px;
+		margin-top: 0px;
+	}
+	.section-4 .feature_description p {
 		font-size: 16px;
 	}
-	.section-3 .composition-img {
-		margin-top: 30px;
+	.section-6 .red-block p:first-child {
+		font-size: 16px;
 	}
-	.section-4 .text-block p:first-child, .section-4 .title_individual_text p {
+	.section-6 .red-block p {
+		font-size: 18px;
+	}
+	.section-6 .slogan ul li p {
+		font-size: 14px;
+	}
+	.training-steps-block .contain_title p, .training-steps-block .contain_description p {
+		font-size: 15px;
+	}
+	.training-steps-block .contain_description p {
+		font-size: 14px;
+	}
+	.section-7 {
+		height: auto;
+	}
+	.section-7 .author-information_text p {
+		font-size: 16px;
+	}
+	.section-7 .author-information ul li {
+		padding-left: 65px;
+		margin-bottom: 20px;
+	}
+	.clients .clients-img {
+		margin-bottom: 20px;
+	}
+	.clients {
+		padding-bottom: 30px;
+	}
+	.books-block .book p {
+		font-size: 16px;
+	}
+	.guests .guests-block .guests-block_text p:first-child {
 		font-size: 20px;
 	}
-	.section-4 .text-block p, .section-4 .individual-text p:first-child {
+	.guests .guests-block .guests-block_text p {
 		font-size: 16px;
 	}
-	.section-5 .description p {
+	.section-8 .blue-text p {
+		font-size: 15px;
+	}
+	.section-8 .answer p {
 		font-size: 16px;
 	}
-	.section-5 .different-technology p {
+	.price .border {
+		top: 9px;
+		left: -16px;
+		height: 53px;
+		width: 301px;
+	}
+	.price .btn-new-block .btn-new {
 		font-size: 16px;
 	}
-	.section-5 .banner-img .img-block {
-		top: -36px;
-		img {
-			max-width: 300px;
-		}
+	.price .price-list ul li {
+		margin-bottom: 10px;
 	}
-	.section-6 p {
+	.section-9 .text-review {
+		padding: 48px 40px 65px 40px;
+	}
+	.section-9 .text-review_img {
+		padding-right: 15px;
+		margin-bottom: 15px;
+	}
+	.section-9 .text-review p {
 		font-size: 16px;
+	}
+	header .menu-btn {
+		display: inline-block;
+		background: url("../img/burger.png") no-repeat center left;
+		background-size: contain;
+		width: 25px;
+		height: 25px;
+	}
+	.navbar-collapse {
+		width: 152px;
+		position: absolute;
+		top: 40px;
+		right: 0;
+		z-index: 10;
+		padding: 0;
+		border-radius: 5px;
+		background: rgba(39, 46, 50, .9);
+	}
+	.navbar {
+		padding: 0;
+		display: flex;
+		justify-content: flex-end;
+	}
+	header {
+		padding: 15px 0;
+	}
+	header .header-menu ul li {
+		display: block;
+	}
+	header .header-menu ul li a {
+		padding: 16px 20px;
 	}
 }
 @media screen and (max-width: 767px) {
 	h1 {
-		line-height: 47px;
+		font-size: 48px;
+		line-height: 56px;
 	}
-	.link-btn-block .link-btn {
-		font-size: 16px;
+	.section-1 .header-item {
+		flex-flow: row wrap;
+		justify-content: space-around;
 	}
-	.link-btn-block {
-		margin-top: 40px;
+	.btn-block .btn {
+		font-size: 18px;
 	}
-	.section-2 .item .first-img {
-		margin-bottom: 0px;
-	}
-	.section-2 .item .line-img {
-		margin-bottom: 0px;
-	}
-	.section-2 .item {
-		margin-top: 40px;
-	}
-	.section-5 .banner-img .img-block {
-		position: relative;
-		top: 0;
-		margin-bottom: 20px;
+	.section-2 .algorithm-img {
+		margin-top: 0;
 		text-align: center;
+		margin-bottom: 30px;
+		img {
+			width: auto;
+		}
 	}
-	.section-5 .banner p {
-		text-align: center;
-		padding: 0 15px;
+	h2 {
+		font-size: 27px;
+		line-height: 33px;
 	}
-	.section-5 .banner {
-		margin-top: 40px;
+	.section-6 .slogan ul li {
+		padding-left: 43px;
 	}
-	.section-6 .yellow-btn {
+	.section-6 .video-block {
+		height: 270px;
+		margin-top: 0;
+	}
+	.section-6 .block-with-bg {
+		margin-top: 30px;
+	}
+	.section-7 {
+		background-size: cover;
+	}
+	.section-7 .title p {
+		font-size: 20px;
+	}
+	.section-7 .title {
+		margin-bottom: 15px;
+	}
+	.section-7 .author-img {
+		margin-bottom: 15px;
+	}
+	.section-7 .author-img img {
+		width: auto;
+		max-width: 260px;
+	}
+	.training-process .training-process_video {
+		height: 286px;
+	}
+	.price .border {
+		top: -4px;
+		left: -20px;
+		height: 70px;
+		width: 549px;
+		background-size: cover;
+	}
+	.section-9 .video {
+		height: 287px;
+	}
+	.last-section .employment_header p {
+		font-size: 20px;
+	}
+	.last-section .date-employment {
+		background-size: inherit;
+	}
+	.last-section .theme-employment, .last-section .date-employment {
+		margin-bottom: 10px;
+	}
+	.last-section .handout-employment ul li {
 		font-size: 16px;
-		padding: 16px 16px;
+		margin-bottom: 10px;
 	}
 }
-@media screen and (max-width: 425px) {
-	.section-6 .btn-block {
+@media screen and (max-width: 575px) {
+	.price .border {
+		top: 0;
+		left: 0;
+		height: 63px;
+		width: 100%;
+		background-size: contain;
+	}
+	.section-1 .header-item {
 		display: block;
-		text-align: center;
+		margin-top: 0;
+	}
+	.section-1 .item {
+		margin-right: 0;
+		margin-top: 35px;
+	}
+	.date {
+		justify-content: center;
+	}
+	.section-6 .slogan ul {
+		margin-top: 0;
+		flex-flow: row wrap;
+	}
+	.section-6 .slogan ul li {
+		padding-left: 29px;
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+	.books-block .book img {
+		width: auto;
+	}
+}
+@media screen and (max-width: 495px) {
+	h1 {
+		font-size: 35px;
+		line-height: 41px;
+	}
+}
+@media screen and (max-width: 430px) {
+	h3 {
+		font-size: 28px;
+		line-height: 34px;
+	}
+	h2 {
+		font-size: 23px;
+		line-height: 29px;
+	}
+	.training-steps-block .title p {
+		font-size: 20px;
+	}
+	.price .description p {
+		font-size: 18px;
+	}
+	.section-9 .video {
+		height: 220px;
+	}
+}
+@media screen and (max-width: 415px) {
+	.price .border {
+		top: 9px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.price .border {
+		top: 11px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.price .border {
+		top: 6px;
+	}
+	.training-process .training-process_video {
+		height: 215px;
+	}
+	.section-6 .video-block {
+		height: 186px;
+	}
+	.section-6 .red-block p:first-child {
+		margin-bottom: 10px;
+	}
+	.section-6 .examples ul li p {
+		font-size: 16px;
 	}
 	h1 {
-		font-size: 34px;
-		line-height: 40px;
+		font-size: 29px;
+		line-height: 34px;
 	}
-	.section-1 .title p {
-		font-size: 17px;
+	h3 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	h4 {
+		font-size: 24px;
+	}
+	.section-4 .feature_title img {
+		margin-right: 5px;
+	}
+	.section-5 .principle_title p {
+		font-size: 20px;
+	}
+	.section-5 .principle_text p, .section-5 .principle_list ul li p {
+		font-size: 16px;
+	}
+	.training-steps-block .description p {
+		font-size: 16px;
+	}
+	.training-steps-block .title p {
+		font-size: 18px;
+	}
+	.price .description p {
+		font-size: 16px;
+	}
+	.price .price-list ul li p {
+		font-size: 16px;
+	}
+	.price .btn-new-block .btn-new {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 347px) {
+	.section-6 .slogan ul li p {
+		font-size: 12px;
+	}
+	.price .border {
+		top: 10px;
 	}
 }

@@ -1,27 +1,10 @@
 footer {
-	background: url("../img/footer-bg.png") no-repeat center;
-	background-size: cover;
-	padding: 35px 0 75px 0;
-	.title {
-		text-align: center;
-	}
-	h2 {
-		display: inline-block;
-		font-size: 42px;
-		color: #c29739;
-		border-bottom: 2px solid #c29739;
-	}
-	.contacts-block {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin-top: 45px;
-		a {
-			font-weight: 700;
-			font-size: 24px;
-			color: #ffffff;
-			padding-left: 40px;
-			background: url("../img/phone-bg.png") no-repeat center left;
+	padding: 45px 0 60px 0;
+	.date {
+		justify-content: center;
+		p {
+			color: #333333;
+			font-family: $bold-font;
 		}
 	}
 }
